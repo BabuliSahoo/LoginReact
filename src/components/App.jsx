@@ -1,15 +1,18 @@
 import React from "react";
+import Login from "./Login"
+
+var isLoggedIn = false;
+
+const currentTime =  new Date(2019,11,1,18).getHours();
+console.log(currentTime);
 
 function App() {
   return (
-    <div className="container">
-      <h1>Login</h1>
-      <form className="form">
-        <input type="text" placeholder="Username" />
-        <input type="password" placeholder="Password" />
-        <button type="submit">Login</button>
-      </form>
-    </div>
+    <div className="container">{
+      isLoggedIn === true ?  <h1>Login</h1> :  <Login/>
+      //currentTime >  20 && <h1> Why are you working ?</h1> 
+    }
+      </div>
   );
 }
 
