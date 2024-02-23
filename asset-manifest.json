@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/LoginReact/static/js/main.660968a0.js",
-    "index.html": "/LoginReact/index.html",
-    "main.660968a0.js.map": "/LoginReact/static/js/main.660968a0.js.map"
+    "main.js": "/static/js/main.eda3bad9.js",
+    "index.html": "/index.html",
+    "main.eda3bad9.js.map": "/static/js/main.eda3bad9.js.map"
   },
   "entrypoints": [
-    "static/js/main.660968a0.js"
+    "static/js/main.eda3bad9.js"
   ]
 }
